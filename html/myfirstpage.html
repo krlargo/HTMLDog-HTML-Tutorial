@@ -24,5 +24,47 @@
 		</ol>
 
 		<p><a href="mysecondpage.html">Take me to the other html file.</a></p>
+
+		<img src="Supreme-logo-newyork.png" width="200" alt="IFWTV">
+
+		<h3>Table</h3>
+		<table>
+			<tr>
+				<td>R1, C1</td>
+			</tr>
+			<tr>
+				<td>R2, C1</td>
+				<td>R2, C2</td>
+				<td>R2, C3</td>
+			</tr>
+			<tr>
+				<td>R3, C1</td>
+				<td>R3, C2</td>
+				<td>R3, C3</td>
+			</tr>
+		</table>
+
+		<h3>Form</h3>
+		<form action="processingscript.php" method="post">
+			<p>input</p>
+			Username: <input type="text" value="username"><br>
+			Password: <input type="password"><br>
+			<input type="checkbox" checked>
+			<!-- radio inputs need same name to be related -->
+			<input name="rad" type="radio">
+			<input name="rad" type="radio">
+			<input name="rad" type="radio"><br>
+			<input type="submit" value="Submit"><br><br>
+
+			<p>textarea</p>
+			<textarea rows="10" cols="20">This is a text area that is designed to hold a lot of text and automatically break it into rows based on the amount of text that is inserted into this area of the code.</textarea><br>
+			
+			<p>select</p>
+			<select>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+			</select>
+		</form>
 	</body>
 </html>
